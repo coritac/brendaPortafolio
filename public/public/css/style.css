@@ -1,0 +1,50 @@
+body{
+    font-family: 'Share Tech Mono';
+    background-color: white;
+}
+
+header{
+    background-color: #c0b691;
+    opacity: 0.8;
+    font-family: 'Montserrat';
+    font-weight: 50%;
+    color: white;
+}
+
+.lineaPuntos{
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.cajaHeader{
+    padding: 1%;
+    font-size: medium;
+    color: #EEE6EA;
+}
+
+.cajaHeader:hover{
+    background-color: white;
+    color: #000;
+}
+
+.imagen-home{
+    width: 100%;
+    display: block;
+    animation-name: displacement;
+    animation-duration: 7s;
+}
+
+@keyframes displacement{
+    from {
+        margin-left: 100%;
+        width: 200%;
+    }
+
+    to {
+        width: 100%
+    }
+}
